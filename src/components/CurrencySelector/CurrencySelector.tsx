@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Dropdown } from "react-bootstrap";
-import styles from "./currencySelictor.module.scss";
+import styles from "./currencyselictor.module.scss";
 
 const CurrencySelector: React.FC = () => {
   const [currency, setCurrency] = useState<"USD" | "EUR">("USD");
