@@ -49,7 +49,7 @@ function Home() {
 
 <div className={styles.Banner_5}>
 <img src="/public/images/banner-5.jpg  
-" alt="banner" />
+" alt="" />
 
 </div>
 
