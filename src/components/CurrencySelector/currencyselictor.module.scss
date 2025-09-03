@@ -1,0 +1,20 @@
+.currency-selector{
+
+
+    .creency-dropdown{
+
+a {
+  text-align: center;
+  &:active {
+    background-color: transparent !important;
+    color: inherit !important;
+    
+  }
+
+  &:hover{
+    color: #ff6a00 !important;
+  }
+
+}
+    }
+}

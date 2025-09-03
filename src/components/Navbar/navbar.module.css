@@ -1,0 +1,128 @@
+.topbar-main-sec {
+  background-color: #2c2e3d;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.topbar-main-sec .topbar .topbar-child-1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.topbar-main-sec .topbar .topbar-child-1 a {
+  color: white;
+  font-size: clamp(12px, 1.5vw, 14px);
+  padding: 8px;
+  position: relative;
+}
+.topbar-main-sec .topbar .topbar-child-1 a span:hover {
+  color: #ff6a00;
+}
+.topbar-main-sec .topbar .topbar-child-1 a::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  background-color: #f5f5f5;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topbar-main-sec .topbar .topbar-child-1 a:first-child::after {
+  content: none;
+}
+.topbar-main-sec .topbar .topbar-child-2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.topbar-main-sec .topbar .topbar-child-2 a {
+  padding: 0;
+  position: relative;
+}
+.topbar-main-sec .topbar .topbar-child-2 a::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 20px;
+  background-color: #f5f5f5;
+  left: 0%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.topbar-main-sec .topbar .topbar-child-2 a:first-child::after {
+  content: none;
+}
+.topbar-main-sec .topbar .topbar-child-2 a button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  font-size: clamp(12px, 1.5vw, 14px);
+}
+.topbar-main-sec .topbar .topbar-child-2 a button:hover {
+  color: #ff6a00;
+  background-color: transparent;
+}
+.topbar-main-sec .topbar .topbar-child-2 a .sign-in-dropdown a {
+  text-align: center;
+}
+.topbar-main-sec .topbar .topbar-child-2 a .sign-in-dropdown a:active {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+.topbar-main-sec .topbar .topbar-child-2 a .sign-in-dropdown a:hover {
+  color: #ff6a00 !important;
+}
+
+.center-main-sec {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #2c2e3d;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.center-main-sec .center-navbar .logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.center-main-sec .center-navbar .card i {
+  font-size: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+  color: white !important;
+}
+
+.Navbar-main-sec {
+  background-color: #2c2e3d;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .center-main-sec .center-navbar .nav_sec_meadia .sernhbarMeada {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
+  .topbar-child-2 {
+    justify-content: start !important;
+  }
+  .center-main-sec {
+    height: 180px;
+  }
+  .center-main-sec .center-navbar {
+    height: 100%;
+  }
+  .center-main-sec .center-navbar .nav_sec_meadia {
+    height: 100%;
+  }
+  .center-main-sec .center-navbar .nav_sec_meadia .logo_meadia {
+    display: flex;
+    justify-content: center;
+  }
+  .center-main-sec .center-navbar .nav_sec_meadia .card_iocn_meada {
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=navbar.module.css.map */

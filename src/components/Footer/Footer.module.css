@@ -1,0 +1,68 @@
+.footer {
+  background: #2f3a4b;
+  color: #fff;
+  font-size: 14px;
+}
+.footer .topFeatures {
+  background: #354355;
+  padding: 20px 0;
+}
+.footer .topFeatures .featureBox {
+  margin-bottom: 15px;
+}
+.footer .topFeatures .featureBox h6 {
+  font-weight: bold;
+}
+.footer .topFeatures .featureBox p {
+  margin: 0;
+  font-size: 13px;
+}
+.footer .newsletter {
+  padding: 20px 0;
+}
+.footer .newsletter .newsForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.footer .newsletter .newsForm input {
+  max-width: 300px;
+}
+.footer .mainFooter {
+  padding: 40px 0;
+}
+.footer .mainFooter h5 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.footer .mainFooter .links {
+  list-style: none;
+  padding: 0;
+}
+.footer .mainFooter .links li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.footer .mainFooter .links li:hover {
+  text-decoration: underline;
+}
+.footer .mainFooter .socials {
+  display: flex;
+  gap: 10px;
+}
+.footer .mainFooter .socials a {
+  color: #fff;
+  font-size: 18px;
+}
+.footer .mainFooter .socials a:hover {
+  color: #f1c40f;
+}
+.footer .bottomBar {
+  background: #25313f;
+  padding: 10px 0;
+}
+.footer .bottomBar p {
+  margin: 0;
+  font-size: 13px;
+}/*# sourceMappingURL=Footer.module.css.map */

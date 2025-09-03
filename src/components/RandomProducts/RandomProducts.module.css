@@ -1,0 +1,89 @@
+.randomProducts {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+.randomProducts .sectionTitle {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: 600;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.randomProducts .productList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.randomProducts .productItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.randomProducts .productItem:last-child {
+  border-bottom: none;
+}
+.randomProducts .imageWrapper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 6px;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.randomProducts .imageWrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  transition: opacity 0.3s ease-in-out;
+}
+.randomProducts .imageWrapper .primary {
+  opacity: 1;
+  z-index: 1;
+}
+.randomProducts .imageWrapper .secondary {
+  opacity: 0;
+  z-index: 2;
+}
+.randomProducts .imageWrapper:hover .primary {
+  opacity: 0;
+}
+.randomProducts .imageWrapper:hover .secondary {
+  opacity: 1;
+}
+.randomProducts .info {
+  flex: 1;
+}
+.randomProducts .title {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  line-height: 1.2;
+}
+.randomProducts .priceWrapper {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.randomProducts .newPrice {
+  color: #dc3545;
+  font-weight: 600;
+}
+.randomProducts .oldPrice {
+  color: #aaa;
+  font-size: 13px;
+  text-decoration: line-through;
+}/*# sourceMappingURL=RandomProducts.module.css.map */

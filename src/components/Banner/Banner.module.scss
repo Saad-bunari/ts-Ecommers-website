@@ -1,0 +1,60 @@
+.bannerManinContainer{
+
+.imagesforbanner{
+
+width: 100%;
+
+
+  
+  overflow: hidden; 
+ 
+
+  img {
+    display: block;
+  
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease-in-out; 
+
+    &:hover {
+      transform: scale(1.050); 
+    }
+  }
+
+}
+
+
+.smallbanner{
+
+gap: 30px;
+align-items: center;
+
+   .towImagesBanner {
+ 
+  overflow: hidden; 
+  
+
+  img {
+  
+  
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease-in-out; 
+
+    &:hover {
+      transform: scale(1.050); 
+    }
+  }
+}
+}
+
+
+
+
+
+
+
+
+}

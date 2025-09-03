@@ -1,0 +1,30 @@
+.NewArrival .Table .Banner_5 {
+  margin-top: 16%;
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+}
+.NewArrival .Table .Banner_5 img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: ease-in-out 0.3s;
+}
+.NewArrival .Table .Banner_5 img:hover {
+  transform: scale(1.03);
+}
+.NewArrival .TwoCarisoulCombine .myRoot {
+  width: 100% !important;
+  margin: 0 !important;
+}
+.NewArrival .TwoCarisoulCombine .BestSeller {
+  color: rgb(131, 131, 131);
+  transition: ease-in-out 0.3s;
+}
+.NewArrival .TwoCarisoulCombine .BestSeller:hover {
+  color: #222;
+}
+.NewArrival .TwoCarisoulCombine .myImgWrap {
+  height: 130px;
+}/*# sourceMappingURL=Home.module.css.map */

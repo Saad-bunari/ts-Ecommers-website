@@ -1,0 +1,10 @@
+.language-selector .language-dropdown a {
+  text-align: center;
+}
+.language-selector .language-dropdown a:active {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+.language-selector .language-dropdown a:hover {
+  color: #ff6a00 !important;
+}/*# sourceMappingURL=languageselector.module.css.map */

@@ -1,0 +1,28 @@
+.bannerManinContainer .imagesforbanner {
+  width: 100%;
+  overflow: hidden;
+}
+.bannerManinContainer .imagesforbanner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+}
+.bannerManinContainer .imagesforbanner img:hover {
+  transform: scale(1.05);
+}
+.bannerManinContainer .smallbanner {
+  gap: 30px;
+  align-items: center;
+}
+.bannerManinContainer .smallbanner .towImagesBanner {
+  overflow: hidden;
+}
+.bannerManinContainer .smallbanner .towImagesBanner img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+}
+.bannerManinContainer .smallbanner .towImagesBanner img:hover {
+  transform: scale(1.05);
+}/*# sourceMappingURL=Banner.module.css.map */

@@ -1,0 +1,67 @@
+.search-bar-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .InputGroupsec{
+height: clamp(3rem, 2vw + 1rem, 4rem);
+
+.serch-bar-btn{
+    width: 10%;
+}
+
+.category{
+    
+    
+    border: none;
+    border-left: #2c2e3d 1px solid;
+        color: black;
+    
+    background-color: white;
+    position: relative;
+    
+      &:hover{
+        color: #ff6a00;
+
+      }
+  &:active {
+    background-color: white !important;
+    color: black !important;
+    
+  }
+
+
+
+    
+  
+}
+
+.serch-bar-btn{
+    background-color: #ff6a00;
+    border: none;
+    border-right: #2c2e3d solid 1px !important;
+
+    i{
+      color: white;
+      
+    }
+
+      &:active {
+    background-color:#ff6a00  !important;
+    color: inherit !important;
+    
+  }
+}
+
+    }
+}
+
+
+@media (max-width: 576px) {
+
+  .search-bar-main{
+padding: 15px;
+  }
+
+
+
+}

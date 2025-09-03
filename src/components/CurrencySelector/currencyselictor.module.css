@@ -1,0 +1,10 @@
+.currency-selector .creency-dropdown a {
+  text-align: center;
+}
+.currency-selector .creency-dropdown a:active {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+.currency-selector .creency-dropdown a:hover {
+  color: #ff6a00 !important;
+}/*# sourceMappingURL=currencyselictor.module.css.map */
