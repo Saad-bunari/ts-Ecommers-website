@@ -12,7 +12,7 @@ const Banner: React.FC = () => {
 
 <div className={styles.imagesforbanner}>
 
-<img src="/public/images/baner-4.jpg" alt="" />
+<img src="/public/baner-4.jpg" alt="" />
 
 </div>
 
@@ -21,7 +21,7 @@ const Banner: React.FC = () => {
 
 <div className={styles.imagesforbanner}>
   
-<img src="/public/images/baner-2.jpg" alt="" />
+<img src="/public/baner-2.jpg" alt="" />
 </div>
 
 </Col>
@@ -33,13 +33,13 @@ const Banner: React.FC = () => {
 
 <Col md={12} className={styles.towImagesBanner}>
   
-  <img src="/public/images/baner-1.jpg" alt="" />
+  <img src="/public/baner-1.jpg" alt="" />
 
 </Col>
 
 <Col md={12} className={styles.towImagesBanner}>
   
-  <img src="/public/images/baner-3.jpg" alt="" />
+  <img src="/public/baner-3.jpg" alt="" />
 
 </Col>
 

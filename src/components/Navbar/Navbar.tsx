@@ -66,7 +66,7 @@ function Navbar() {
        
         <div className={styles["logo"]}>
 
-            <img src="/images/logo.png" alt="logo" />
+            <img src="/public/logo.png" alt="logo" />
 
 
        </div>

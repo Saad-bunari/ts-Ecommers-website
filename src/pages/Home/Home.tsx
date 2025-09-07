@@ -48,7 +48,7 @@ function Home() {
 <Col md={12} >
 
 <div className={styles.Banner_5}>
-<img src="/public/images/baner.jpg  
+<img src="/public/baner.jpg  
 " alt="baner-5" />
 
 </div>

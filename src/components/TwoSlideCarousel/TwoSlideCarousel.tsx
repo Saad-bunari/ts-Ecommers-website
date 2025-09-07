@@ -8,7 +8,7 @@ const slides = [
     id: 1,
     content: (
       <div className={[styles.slideContent, ].join(' ')}       style={{
-        backgroundImage: "url('/public/images/slider-1-img-01.jpg')",
+        backgroundImage: "url('/public/slider-1-img-01.jpg')",
 
       }}>
 
@@ -35,7 +35,7 @@ const slides = [
     content: (
       <div className={styles.slideContent} 
        style={{
-        backgroundImage: "url('/public/images/banner-4.jpg')",
+        backgroundImage: "url('/public/banner-4.jpg')",
 
       }}>
 
